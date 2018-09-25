@@ -2704,8 +2704,15 @@
       },
       "label": {
         "type": {
-          "name": "custom",
-          "raw": "PropTypes.children"
+          "name": "union",
+          "value": [
+            {
+              "name": "element"
+            },
+            {
+              "name": "string"
+            }
+          ]
         },
         "required": false,
         "description": "The tab's label"
