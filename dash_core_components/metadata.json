@@ -2704,15 +2704,7 @@
       },
       "label": {
         "type": {
-          "name": "union",
-          "value": [
-            {
-              "name": "element"
-            },
-            {
-              "name": "string"
-            }
-          ]
+          "name": "string"
         },
         "required": false,
         "description": "The tab's label"
